@@ -29,9 +29,8 @@ CPAN_PROJECTS := \
     TimeDate-2.30 \
     MailTools-2.13 \
     IO-stringy-2.110 \
-    Test-Tester-0.109 \
-    Test-Deep-0.112 \
-    MIME-tools-5.505 \
+    Test-Deep-1.128 \
+    MIME-tools-5.509 \
     Convert-TNEF-0.18 \
     Digest-SHA1-2.13 \
     Net-Server-2.007 \
@@ -49,7 +48,7 @@ CPAN_PROJECTS := \
     Date-Calc-6.3 \
     Convert-ASN1-0.26 \
     GSSAPI-0.28 \
-    Net-SSLeay-1.72 \
+    Net-SSLeay-1.85 \
     Authen-SASL-2.16 \
     XML-NamespaceSupport-1.11 \
     XML-SAX-Base-1.08 \
@@ -78,7 +77,7 @@ CPAN_PROJECTS := \
     XML-LibXSLT-1.87 \
     Digest-CRC-0.18 \
     Error-0.17022 \
-    NetAddr-IP-4.072 \
+    NetAddr-IP-4.079 \
     Net-DNS-Resolver-Programmable-v0.003 \
     Mail-SPF-v2.9.0 \
     Crypt-OpenSSL-Random-0.04 \
@@ -93,7 +92,7 @@ CPAN_PROJECTS := \
     Sub-Exporter-0.987 \
     Sub-Exporter-Progressive-0.001011 \
     Devel-GlobalDestruction-0.12 \
-    Algorithm-C3-0.08 \
+    Algorithm-C3-0.10 \
     Class-C3-0.25 \
     MRO-Compat-0.12 \
     Task-Weaken-1.04 \
@@ -109,6 +108,7 @@ CPAN_PROJECTS := \
     Eval-Closure-0.11 \
     Module-Runtime-0.013 \
     Module-Implementation-0.07 \
+    Module-Pluggable-5.2 \
     Class-Load-0.20 \
     Class-Load-XS-0.06 \
     Devel-StackTrace-1.31 \
@@ -202,9 +202,9 @@ CPAN_PROJECTS := \
     Test-SubCalls-1.09 \
     PPI-1.215 \
     MooseX-Traits-0.12 \
-    Algorithm-Diff-1.1902 \
+    Algorithm-Diff-1.1903 \
     Text-Diff-1.41 \
-    Test-Differences-0.61 \
+    Test-Differences-0.67 \
     Parse-Method-Signatures-1.003016 \
     MooseX-TransactionalMethods-0.008 \
     CPAN-Meta-Check-0.008 \
@@ -220,7 +220,9 @@ CPAN_PROJECTS := \
     MooseX-ClassAttribute-0.27 \
     MooseX-NonMoose-0.24 \
     String-RewritePrefix-0.007 \
-    MooseX-Storage-0.45
+    MooseX-Storage-0.45 \
+    Canary-Stability-2012 \
+    JSON-XS-4.02
 
 SVK_PROJECTS := \
     Algorithm-Annotate-0.10 \
@@ -245,6 +247,6 @@ SVK_PROJECTS := \
     Time-Progress-1.8 \
     Compress-Bzip2-2.17 \
     PerlIO-via-Bzip2-0.02 \
-    PerlIO-gzip-0.18
+    PerlIO-gzip-0.20
 
 PROJECTS = $(CPAN_PROJECTS) $(SVK_PROJECTS)

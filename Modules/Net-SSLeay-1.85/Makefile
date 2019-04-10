@@ -1,5 +1,5 @@
 NAME = Net-SSLeay
-VERSION = 1.72
+VERSION = 1.85
 PROJARGS = --
 
 include ../Makefile.inc

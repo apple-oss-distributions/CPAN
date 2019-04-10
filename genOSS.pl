@@ -348,34 +348,9 @@ EOF
 	licensestr => $PerlLicense,
 	date => '2010-03-15',
     },
-    'Mac-AppleEvents-Simple-1.18' => {
-	license => 'Perl',
-	licensestr => $PerlLicense,
-    },
-    'Mac-Apps-Launch-1.93' => {
-	license => 'Perl',
-	licensestr => $PerlLicense,
-    },
-    'Mac-Carbon-0.77' => {
-	license => 'Perl',
-	licensestr => $PerlLicense,
-    },
-    'Mac-Carbon-0.82' => {
-	license => 'Perl',
-	licensestr => $PerlLicense,
-	date => '2010-03-15',
-    },
     'Mac-Errors-1.14' => {
 	license => 'Perl',
 	licensefile => "$CPAN/5.10/Mac-Errors-1.14/LICENSE",
-    },
-    'Mac-Glue-1.30' => {
-	license => 'Perl',
-	licensestr => $PerlLicense,
-    },
-    'Mac-OSA-Simple-1.09' => {
-	license => 'Perl',
-	licensestr => $PerlLicense,
     },
     'Mail-SPF-Query-1.999.1' => {
 	license => 'Perl',
@@ -629,7 +604,7 @@ EOF
 	license => 'Perl',
 	licensefile => "$CPAN/5.10/XML-SAX-0.96/LICENSE",
     },
-    'XML-Simple-2.18' => {
+    'XML-Simple-2.25' => {
 	license => 'Perl',
 	licensestr => $PerlLicense,
     },
